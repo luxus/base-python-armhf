@@ -20,4 +20,4 @@ rm -rfv /var/cache/apk/* /root/.cache
 RUN apk add --update $APKLIST && \
 rm -rf /var/cache/apk/*
 
-ENTRYPOINT [ "/init" ]
+
